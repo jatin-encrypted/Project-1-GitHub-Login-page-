@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    color: #414141;
+    height: 40vh;
+}
+main{
+    justify-content: center;
+    margin-top: -250px;
+}        
+.login-box{
+    background-color: rgb(221, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height: 220px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(221, 221, 221);
+}
+.sign-in-box{
+    background-color: #ffffff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(221, 221, 221);
+}
+.sign-in-box>a{
+    padding: 50px;
+}
+.sign-in-box>p{
+    padding: 20px;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    margin: 10px;
+}
+#logo-container > img{
+    width: 47px;
+    height: auto;
+}
+.form-box{
+    display: block;
+    margin: 20px;
+    text-align: left;
+}
+.form-box > label{
+    display: inline;
+    width: 100%;
+    padding: 2px;
+    font-family: 'Roboto';
+}
+.form-box > input{
+    border-radius: 4px;
+    border-color: rgb(221, 221, 221);
+    width: 100%;
+    padding: 6px;
+}
+.form-box > a{
+    display: inline;
+    text-decoration: none;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#items{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit{
+    background-color: rgb(8, 206, 8);
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-size: large;
+}
+.submit:hover{
+    background-color: #017c01;
+}
+.footer-container{
+    display: block;
+    font-family: 'Roboto';
+}
+.footer-container>ul>li>a{
+    color: #313131;
+    text-decoration: none;
+}
+.footer-container>ul>li>a:hover{
+    text-decoration: underline;
+    color: rgb(69, 69, 250);
+}
